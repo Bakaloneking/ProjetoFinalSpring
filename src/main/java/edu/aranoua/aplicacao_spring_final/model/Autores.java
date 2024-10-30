@@ -25,4 +25,8 @@ public class Autores {
 
     @ManyToOne
     private Afiliacao afiliacao1;
+    private Artigo artigo;
+
+    @OneToMany
+    private Revista revista;
 }
